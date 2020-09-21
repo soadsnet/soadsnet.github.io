@@ -27,29 +27,7 @@
             >
               SnapChat $200.00 once
             </button>
-            <button
-              data-checkout-mode="payment"
-              data-price-id="price_1HTFF3BabmvHq0dBWBo0yuMA"
-            >
-              Donate $15.00 once
-            </button>
-            <button
-              data-checkout-mode="payment"
-              data-price-id="price_1HTFF3BabmvHq0dBWBo0yuMA"
-            >
-              Donate $50.00 once
-            </button>
-          </section>
-          <section class="container">
-            <h1>Recurring Donation</h1>
-            <button
-              data-checkout-mode="subscription"
-              data-price-id="plan_GU4MXg0k0Uv1S6"
-            >
-              Donate $20.00 per month
-            </button>
-          </section>
-        </div>
+          </div>
         <div id="error-message"></div>
       </div>
     </div>
@@ -70,7 +48,7 @@
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
       var PUBLISHABLE_KEY = 'pk_test_51HTATUBabmvHq0dBJQsxAHa5VJptHILgnGrlEGMmN88jUbbaizkDZPg0HQqFnkRDMlYy6zlRFCaHJaZiQ4T2k3Yg00NPGYpU96';
       // Replace with the domain you want your users to be redirected back to after payment
-      var DOMAIN = location.href.replace(/[^/]*$/, '');
+      var DOMAIN = location.soadsnet.github.io(/[^/]*$/, '');
 
       if (PUBLISHABLE_KEY === 'pk_test_51HTATUBabmvHq0dBJQsxAHa5VJptHILgnGrlEGMmN88jUbbaizkDZPg0HQqFnkRDMlYy6zlRFCaHJaZiQ4T2k3Yg00NPGYpU96') {
         console.log(
